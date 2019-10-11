@@ -13,6 +13,6 @@ jobs:
       - uses: Boycottangent/music-box@master
         env:
           LASTFM_KEY: ${{ secrets.LASTFM_KEY }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           LFMUSERNAME: Boycottangent
           GIST_ID: cc94ef872818a4adbad324d0bb229082
