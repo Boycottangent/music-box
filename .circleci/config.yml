@@ -37,7 +37,7 @@ workflows:
     triggers:
       - schedule:
           # Run every hour.
-          cron: "* 10 * * *"
+          cron: "30 20 * * *"
           filters:
             branches:
               only:
