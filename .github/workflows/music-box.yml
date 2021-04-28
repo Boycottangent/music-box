@@ -15,5 +15,5 @@ jobs:
        env:
           LASTFM_KEY: ${{ secrets.LASTFM_KEY }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          LFMUSERNAME: Boycottangent
+          LFMUSERNAME: ${{ secrets.LFMUSERNAME }}
           GIST_ID: ${{ secrets.GIST_ID }}
