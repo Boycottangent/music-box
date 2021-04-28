@@ -31,17 +31,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-      - uses: jacc/music-box@master
+      - uses: actions/checkout@v2
         env:
           LASTFM_KEY: ${{ secrets.LASTFM_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LFMUSERNAME: <Last.fm username>
+          LFMUSERNAME: ${{ secrets.LFMUSERNAME }}
           GIST_ID: <GitHub Gist ID>
 ```
 
 ## 🤫 Environment Secrets
-- **GIST_ID:** The ID portion from your gist url `https://gist.github.com/<github username>/`**`6d5f84419863089a167387da62dd7081`**.
+- **GIST_ID:** The ID portion from your gist url `https://gist.github.com/<github username>/`**`<XXXXXXXXXXXXXXXXX>`**.
 - **GITHUB_TOKEN:** The GitHub token generated above.
 - **LASTFM_KEY:** The API key you got from creating a Last.fm API account.
 - **LFMUSERNAME:** Your Last.fm username.
