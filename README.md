@@ -1,10 +1,18 @@
-<p align='center'>
-  <img src="https://github.com/jacc/music-box/blob/master/branding/musicbox-preview.png">
-  <h3 align="center">music-box</h3>
-  <p align="center">Update a gist to contain your weekly plays on Last.fm</p>
-</p>
+```YAML
+東京事変                   █████▌░░░░░░░░░░░    12 plays
+hitorie                    ██▊░░░░░░░░░░░░░░     6 plays
+Otaku Ongaku               ██▎░░░░░░░░░░░░░░     5 plays
+ヒトリエ                   █▍░░░░░░░░░░░░░░░     3 plays
+Strawberry Girls           ▉░░░░░░░░░░░░░░░░     2 plays
+The Weeknd                 ▉░░░░░░░░░░░░░░░░     2 plays
+tofubeats                  ▉░░░░░░░░░░░░░░░░     2 plays
+我是機車少女               ▉░░░░░░░░░░░░░░░░     2 plays
+草東沒有派對               ▉░░░░░░░░░░░░░░░░     2 plays
+Aimer with chelly (EGOIST  ▍░░░░░░░░░░░░░░░░     1 plays
+```
 
 ---
+
 > 📌✨ For more pinned-gist projects like this one, check out: https://github.com/matchai/awesome-pinned-gists
 
 ## ✨ Inspiration
